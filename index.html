@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The Evergreen List</title>
+  <meta name="The Evergreen List">
+  <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;600;900&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="style.css">
+
+</head>
+ <body>
+
+    <div id="container">
+      <div id="banner"> 
+        <h1 id>The Evergreen List</h1>
+        <button class="new">Add new project</button>
+         </div>
+       
+        <div id="menu">
+            <p>Projects</p> <br>
+            <p>Tasks</p>
+        </div>
+        
+      <form class="form" id="newProjectForm" onsubmit="submitProj(); return false">
+        <h3>Name your project</h3><br>
+        <input type="text" id="project" name="project"><br>
+        <input type="submit" id= "submit" value="Create">
+      <button id="cancelForm" type="button">Cancel</button>
+      </form>
+      
+    </div>
+
+    
+
+    <script src="project.js"></script>
+    <script src="main.js"></script>
+    <script src="newTask.js"></script>
+    <script src="editForm.js"></script>
+ </body>
+</html>
